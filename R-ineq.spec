@@ -11,10 +11,9 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-10.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-stats R-graphics R-grDevices 
-Requires:         R-stats R-graphics R-grDevices 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-graphics R-grDevices
-BuildRequires:    R-stats R-graphics R-grDevices 
+Requires:         R-stats R-graphics R-grDevices
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-stats R-graphics R-grDevices
 
 %description
 Inequality, concentration, and poverty measures. Lorenz curves (empirical
