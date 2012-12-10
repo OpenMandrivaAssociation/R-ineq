@@ -11,9 +11,10 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-10.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-stats R-graphics R-grDevices
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-stats R-graphics R-grDevices
+Requires:         R-stats R-graphics R-grDevices 
+Requires:         R-stats R-graphics R-grDevices 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-graphics R-grDevices
+BuildRequires:    R-stats R-graphics R-grDevices 
 
 %description
 Inequality, concentration, and poverty measures. Lorenz curves (empirical
@@ -43,3 +44,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2_10-1
++ Revision: 777008
+- Import R-ineq
+- Import R-ineq
+
