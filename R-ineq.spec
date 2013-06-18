@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.2_10
-Release:          1
+Release:          2
 Summary:          Measuring Inequality, Concentration, and Poverty
 Group:            Sciences/Mathematics
 License:          GPL-2
