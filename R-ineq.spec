@@ -2,13 +2,14 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          0.2.11
+Version:          0.2.12
 Release:          1
 Summary:          Measuring Inequality, Concentration, and Poverty
+
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/ineq_0.2-11.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/ineq_0.2-12.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-stats R-graphics R-grDevices 
@@ -45,11 +46,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 
-
-%changelog
-* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2_10-1
-+ Revision: 777008
-- Import R-ineq
-- Import R-ineq
 
 
